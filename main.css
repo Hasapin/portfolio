@@ -5,7 +5,7 @@
 
 .header {
     padding-bottom: 9px;
-    margin: 40px 0 20px;
+    margin: 40px 0 10px;
     border-bottom: 1px solid #eee;
     text-align: center;
     background-image: url(images/mountain.jpg);
@@ -30,4 +30,10 @@
 
 body {
     background-color: thistle;
+}
+
+img {
+    display: inline-block;
+    width: 25%;
+    padding-right: 10px;
 }
