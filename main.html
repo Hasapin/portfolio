@@ -1,37 +1,149 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
-
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--My other files-->
         <link rel="stylesheet" type="text/css" href="main.css">
-
+        <script src="main.js"></script>
+        <!--Jquery stuff-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <!--Some meta tags-->
         <meta charset="UTF-8">
        	<meta name="description" content="">
         <meta name="keywords" content="">
    	    <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="theme-color" content="#9932CC">
 	    <link rel="icon" type="image/x-icon" href="#">
-	    
+	    <!--That cool thing that makes embedding your website in chats much cooler-->
 	    <meta property="og:type" content="website">
 	    <meta property="og:site_name" content="">
 	    <meta property="og:title" content="">
 	    <meta property="og:description" content="">
 	    <meta property="og:url" content="">
-	    <meta property="og:image" content="">
-	
+        <meta property="og:image" content="">
+        <!--Icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Title!-->
     	<title>Test</title>
     </head>
 
 
     <body>
 
+        <div class="container">
 
 
-        <script src="main.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+            <div class="row header justify-content-center">
+                
+                <div class="col-12">
+                    <h1>Name</h1>
+                </div>
+
+                <div class="col-12">
+                    <p style="color: white">Десктоп програмист | Уеб Бекенд програмист | Ученик</p>
+                </div>
+                </div>
+
+                <div class="col-12" style="background-color: #ebdfeb;">
+                    <ui class="nav nav-tabs nav-justified">
+                        <li class="nav-item">
+                            <a class="nav-link active"  href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                    </ui>
+                </div>
+                
+
+            
+
+
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="Carousel" class="carousel slide text-center" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel" data-slide-to="1"></li>
+                            <li data-target="#Carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="slide1"></div>
+                                <div claas="carousel-caption">
+                                    <h1>Hi</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="slide2"></div>
+                                <div claas="carousel-caption">
+                                    <h1>Slide2</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="slide3"></div>
+                                <div claas="carousel-caption">
+                                    <h1>Slide3</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#Carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="row footer justify-content-center">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-google-plus-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin-square"></i>
+                <i class="fa fa-pinterest-square"></i>
+                <i class="fa fa-reddit"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-tumblr-square"></i>
+            </div>
+
+
+
+        </div>
+
+        <!--Even more bootstrap stuff-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,0 +1,33 @@
+.carousel {
+    background-color: grey;
+    height: 500px;
+}
+
+.header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background-image: url(images/mountain.jpg);
+}
+
+.footer {
+    padding-top: 9px;
+    margin: 40px 0 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    
+}
+
+.nav {
+    padding-bottom: 0px;
+    margin: 0px 0 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+body {
+    background-color: thistle;
+}
